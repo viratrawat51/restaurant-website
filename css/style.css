@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500;1,600&display=swap");
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 62.5%;
+}
+/* navbar styling */
+.navbar input {
+}
+.navbar .humburger-lines {
+  display: none;
+}
+.container {
+  height: 1200px;
+  width: 90%;
+  margin: auto;
+}
+.navbar {
+  box-shadow: 0px 5px 10px 0px #ebb;
+  position: fixed;
+  width: 100%;
+  opacity: 0.85;
+  background: #fff;
+  color: #000;
+  z-index: 999;
+}
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  height: 64px;
+  align-items: center;
+}
+.menu-items {
+  order: 2;
+  display: flex;
+}
+.menu-items li {
+  list-style: none;
+  margin-left: 1.5rem;
+  font-size: 1.8rem;
+}
+.menu-items li a {
+  background-image: -moz-radial-gradient(pink, red, blue, green);
+}
+.logo {
+  order: 1;
+}
