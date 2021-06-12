@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
@@ -12,6 +11,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Resturont website</title>
   </head>
   <body>
@@ -25,16 +25,87 @@
           <span class="line line3"></span>
         </div>
         <ul class="menu-items">
-          <li><a href="https://www.postman.com">Home</a></li>
-          <li><a href="https://www.google.com">About</a></li>
-          <li><a href="https://www.youtube.com">Category</a></li>
-          <li><a href="https://source.unsplash.com/random">Menu</a></li>
-          <li><a href="https://codewithharry.com">Tastimonial</a></li>
-          <li><a href="https://skype.com">Contact</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#category">Category</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#tarminal">Tastimonial</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
         <h1 class="logo">FW</h1>
       </div>
     </nav>
-    <img src="asset/images/website.jpg" alt="" width="100%" height="100%" />
+    <section class="helloworld" id="hello">
+      <div class="showcase">
+        <h1 class="main-tittle">Eat Right Food</h1>
+        <p>Eat Healthy food, it good for your health.</p>
+        <a href="#food-menu" class="btn btn-primary">menu</a>
+      </div>
+    </section>
+    <section id="about">
+      <div class="about-wrapper">
+        <div class="about-text">
+          <p class="small">About Us</p>
+          <h1>We've been making healthy food for last 10 years</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
+            consequuntur officiis alias autem fugiat rerum nobis labore
+            assumenda provident porro debitis cum, ad laboriosam quaerat fugit,
+            earum amet nihil consequatur ducimus natus distinctio eum nulla?
+            Voluptatibus perferendis dignissimos maiores sed!
+          </p>
+        </div>
+        <div class="about-img">
+          <img src="/asset/images/stroberry.jpg" alt="About Us" />
+        </div>
+      </div>
+    </section>
+
+    <section id="food">
+      <h2>Types Of food</h2>
+      <div class="food-container container">
+        <div class="food-types1 fruit">
+          <div class="img-container">
+            <img src="asset/images/fruit.jpg" />
+            <div class="img-content">
+              <h3>fruits</h3>
+              <a
+                href="https://en.wikipedia.org/wiki/Fruit"
+                class="btn btn-primary"
+                >Learn More</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="food-types1 fruit">
+          <div class="img-container">
+            <img src="asset/images/fruit.jpg" />
+            <div class="img-content">
+              <h3>fruits</h3>
+              <a
+                href="https://en.wikipedia.org/wiki/Fruit"
+                class="btn btn-primary"
+                >Learn More</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="food-types1 fruit">
+          <div class="img-container">
+            <img src="asset/images/fruit.jpg" />
+            <div class="img-content">
+              <h3>fruits</h3>
+              <a
+                href="https://en.wikipedia.org/wiki/Fruit"
+                class="btn btn-primary"
+                >Learn More</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
