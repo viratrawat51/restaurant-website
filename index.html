@@ -4,114 +4,108 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>flexbox tutorial</title>
-    <style>
-      .container {
-        height: 444px;
-        width: 100%;
-        border: 2px solid black;
-        display: flex;
-        /* flex properteis for flex container */
-        /* flex-direction: row; */
-        /* flex-direction: column; */
-        /* flex-direction: row-reverse; */
-        /* flex-direction: column-reverse; */
-        flex-wrap: wrap;
-        /* justify-content: space-between;
-        justify-content: space-evenly;
-        align-items: center; */
-        background-image: linear-gradient(
-          pink,
-          blue,
-          green,
-          skyblue,
-          purple,
-          lightpink,
-          red
-        );
-      }
-      .item {
-        width: 70px;
-        height: 70px;
-        border: 2px solid green;
-        margin: 10px;
-        background-color: #00abf0;
-      }
-      #item-1 {
-        flex-grow: 70;
-      }
-      #item-2 {
-        flex-grow: 70;
-        flex-shrink: 3;
-      }
-      #item-3 {
-        flex-grow: 70;
-        flex-shrink: 3;
-      }
-      #item-4 {
-        flex-grow: 70;
-        flex-shrink: 3;
-      }
-      #item-5 {
-        flex-grow: 70;
-        flex-shrink: 3;
-      }
-      #item-6 {
-        flex-grow: 70;
-        flex-shrink: 3;
-      }
-      #item-7 {
-        flex-grow: 70;
-        flex-shrink: 3;
-      }
-      #item-8 {
-        flex-grow: 70;
-        flex-shrink: 3;
-      }
-      #item-9 {
-        flex-grow: 70;
-        flex-shrink: 3;
-      }
-      #item-10 {
-        flex-grow: 70;
-        flex-shrink: 3;
-      }
-      #item-11 {
-        flex-grow: 70;
-        flex-shrink: 1;
-      }
-      #item-12 {
-        flex-grow: 70;
-      }
-    </style>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Resturont website</title>
   </head>
-  <body
-    style="
-      background-image: -moz-radial-gradient(
-        pink,
-        blue,
-        green,
-        skyblue,
-        purple,
-        lightpink,
-        red
-      );
-    "
-  >
-    <h1>This Is Flexbox Tutorial</h1>
-    <div class="container">
-      <div class="item" id="item-1">1</div>
-      <div class="item" id="item-2">2</div>
-      <div class="item" id="item-3">3</div>
-      <div class="item" id="item-4">4</div>
-      <div class="item" id="item-5">5</div>
-      <div class="item" id="item-6">6</div>
-      <div class="item" id="item-7">7</div>
-      <div class="item" id="item-8">8</div>
-      <div class="item" id="item-9">9</div>
-      <div class="item" id="item-10">10</div>
-      <div class="item" id="item-11">11</div>
-      <div class="item" id="item-12">12</div>
-    </div>
+  <body>
+    <h1>Welcome to this website</h1>
+    <nav class="navbar">
+      <div class="navbar-container container">
+        <input type="checkbox" />
+        <div class="humburger-lines">
+          <span class="line line1"></span>
+          <span class="line line2"></span>
+          <span class="line line3"></span>
+        </div>
+        <ul class="menu-items">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#category">Category</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#tarminal">Tastimonial</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <h1 class="logo">FW</h1>
+      </div>
+    </nav>
+    <section class="helloworld" id="hello">
+      <div class="showcase">
+        <h1 class="main-tittle">Eat Right Food</h1>
+        <p>Eat Healthy food, it good for your health.</p>
+        <a href="#food-menu" class="btn btn-primary">menu</a>
+      </div>
+    </section>
+    <section id="about">
+      <div class="about-wrapper">
+        <div class="about-text">
+          <p class="small">About Us</p>
+          <h1>We've been making healthy food for last 10 years</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
+            consequuntur officiis alias autem fugiat rerum nobis labore
+            assumenda provident porro debitis cum, ad laboriosam quaerat fugit,
+            earum amet nihil consequatur ducimus natus distinctio eum nulla?
+            Voluptatibus perferendis dignissimos maiores sed!
+          </p>
+        </div>
+        <div class="about-img">
+          <img src="/asset/images/stroberry.jpg" alt="About Us" />
+        </div>
+      </div>
+    </section>
+
+    <section id="food">
+      <h2>Types Of food</h2>
+      <div class="food-container container">
+        <div class="food-types1 fruit">
+          <div class="img-container">
+            <img src="asset/images/fruit.jpg" />
+            <div class="img-content">
+              <h3>fruits</h3>
+              <a
+                href="https://en.wikipedia.org/wiki/Fruit"
+                class="btn btn-primary"
+                >Learn More</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="food-types1 fruit">
+          <div class="img-container">
+            <img src="asset/images/vegetables.jpg" />
+            <div class="img-content">
+              <h3>vegetables</h3>
+              <a
+                href="https://en.wikipedia.org/wiki/vegetables"
+                class="btn btn-primary"
+                >Learn More</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="food-types1 fruit">
+          <div class="img-container">
+            <img src="asset/images/grain.jpeg" />
+            <div class="img-content">
+              <h3>grain</h3>
+              <a
+                href="https://en.wikipedia.org/wiki/grain"
+                class="btn btn-primary"
+                >Learn More</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>

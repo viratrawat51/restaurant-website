@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>flexbox tutorial</title>
+    <style>
+      .container {
+        height: 444px;
+        width: 100%;
+        border: 2px solid black;
+        display: flex;
+        /* flex properteis for flex container */
+        /* flex-direction: row; */
+        /* flex-direction: column; */
+        /* flex-direction: row-reverse; */
+        /* flex-direction: column-reverse; */
+        flex-wrap: wrap;
+        /* justify-content: space-between;
+        justify-content: space-evenly;
+        align-items: center; */
+        background-image: linear-gradient(
+          pink,
+          blue,
+          green,
+          skyblue,
+          purple,
+          lightpink,
+          red
+        );
+      }
+      .item {
+        width: 70px;
+        height: 70px;
+        border: 2px solid green;
+        margin: 10px;
+        background-color: #00abf0;
+      }
+      #item-1 {
+        flex-grow: 70;
+      }
+      #item-2 {
+        flex-grow: 70;
+        flex-shrink: 3;
+      }
+      #item-3 {
+        flex-grow: 70;
+        flex-shrink: 3;
+      }
+      #item-4 {
+        flex-grow: 70;
+        flex-shrink: 3;
+      }
+      #item-5 {
+        flex-grow: 70;
+        flex-shrink: 3;
+      }
+      #item-6 {
+        flex-grow: 70;
+        flex-shrink: 3;
+      }
+      #item-7 {
+        flex-grow: 70;
+        flex-shrink: 3;
+      }
+      #item-8 {
+        flex-grow: 70;
+        flex-shrink: 3;
+      }
+      #item-9 {
+        flex-grow: 70;
+        flex-shrink: 3;
+      }
+      #item-10 {
+        flex-grow: 70;
+        flex-shrink: 3;
+      }
+      #item-11 {
+        flex-grow: 70;
+        flex-shrink: 1;
+      }
+      #item-12 {
+        flex-grow: 70;
+      }
+    </style>
+  </head>
+  <body
+    style="
+      background-image: -moz-radial-gradient(
+        pink,
+        blue,
+        green,
+        skyblue,
+        purple,
+        lightpink,
+        red
+      );
+    "
+  >
+    <h1>This Is Flexbox Tutorial</h1>
+    <div class="container">
+      <div class="item" id="item-1">1</div>
+      <div class="item" id="item-2">2</div>
+      <div class="item" id="item-3">3</div>
+      <div class="item" id="item-4">4</div>
+      <div class="item" id="item-5">5</div>
+      <div class="item" id="item-6">6</div>
+      <div class="item" id="item-7">7</div>
+      <div class="item" id="item-8">8</div>
+      <div class="item" id="item-9">9</div>
+      <div class="item" id="item-10">10</div>
+      <div class="item" id="item-11">11</div>
+      <div class="item" id="item-12">12</div>
+    </div>
+  </body>
+</html>
